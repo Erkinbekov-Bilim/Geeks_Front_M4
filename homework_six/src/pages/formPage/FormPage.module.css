@@ -1,0 +1,81 @@
+.form {
+    width: 230px;
+    display: flex;
+    margin: 30px auto 0;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form input {
+    width: 230px;
+    padding: 10px;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.button_card {
+    display: flex;
+    gap: 10px;
+}
+
+.error {
+    border: 1px solid #ff6161;
+    outline: none;
+}
+
+.nothing{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.user {
+    width: 1250px;
+    margin: 30px auto 0;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user_key {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+
+.user_info{
+    width: 1250px;
+    display: flex;
+    flex-direction: row;
+    /*margin: 20px 0;*/
+    padding: 20px 10px;
+    justify-content: space-between;
+}
+
+.user_info p{
+    width: 200px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.delete_button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+.delete_button:active{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.nothing {
+    text-align: center;
+    margin-top: 20px;
+}
