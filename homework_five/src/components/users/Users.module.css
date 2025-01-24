@@ -1,0 +1,14 @@
+.user_card{
+    margin-top: 16px;
+    min-width: 230px;
+    padding: 10px;
+    border: 2px solid #2c5254;
+}
+
+.user_info{
+    width: 230px;
+    min-height: 50px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
