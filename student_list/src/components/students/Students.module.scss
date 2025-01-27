@@ -1,0 +1,49 @@
+.container{
+    width: 1440px;
+    margin: 0 auto;
+
+    .list{
+        margin: auto;
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        list-style: none;
+
+        li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 10px;
+        }
+    }
+
+    .student{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 120px;
+
+        button{
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #000;
+            cursor: pointer;
+        }
+
+
+        &_info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 10px;
+        }
+    }
+
+
+}
