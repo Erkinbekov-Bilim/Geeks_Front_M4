@@ -1,0 +1,34 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "surname": "Sariev",
+      "name": "Baktybek",
+      "groupId": 4
+    },
+    {
+      "id": "2",
+      "surname": "Sariev",
+      "name": "Baktybek",
+      "groupId": 4
+    }
+  ],
+  "group": [
+    {
+      "id": "1",
+      "group": "БиПЗИм(дот)-1-22"
+    },
+    {
+      "id": "2",
+      "group": "ИВТСдот-1-22"
+    },
+    {
+      "id": "3",
+      "group": "ИСТд-1-22"
+    },
+    {
+      "id": "4",
+      "group": "ПЗИдот-1-22"
+    }
+  ]
+}
